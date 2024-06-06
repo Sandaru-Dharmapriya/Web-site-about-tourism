@@ -1,0 +1,226 @@
+
+body {
+  margin:0;
+  background-image: url("Background Images/sigiriya.jpg");
+  background-repeat: no-repeat;
+}
+
+
+nav {
+  background-image: url("Background Images/mainPageBackgroundImage.jpg");
+  background-size: 1650px 900px;
+  background-position: center;
+  height: 500px; 
+}
+
+.nevigationBar a{
+  list-style: none;
+  display: inline;
+  font-size: 30px;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+.mainContent{
+  margin-top: -320px;
+}
+.nevigationBar a:hover {
+  color: rgb(244, 211, 2);
+}
+.topLocations{
+  padding: 2px;
+  background-color: rgb(253, 246, 213);
+  text-align: center;
+  
+}
+.topLocations h1{
+  font-family: brush script MT;
+}
+.topLocations h3{
+  margin-top: -60px;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #261e1e;
+}
+.mainContent .topLocations .topLocationsImages img{
+  width: 340px;
+  height: 300px;
+  border-radius: 40px;
+  padding-left: 35px;
+  border-top-left-radius: 90px;
+}
+.mainContent .topLocations .topLocationsImages ul{
+  display: flex;
+  list-style-type: none;
+}
+.mainContent .topLocations .topLocationsImages ul #first{
+  margin-inline-start: 85px;
+  font-size: 45px;
+  font-family:brush script MT;
+}
+.mainContent .topLocations .topLocationsImages ul #second{
+  margin-inline-start: 230px;
+  font-size: 45px;
+  font-family:brush script MT;
+}
+.mainContent .topLocations .topLocationsImages ul #third{
+  margin-inline-start: 295px;
+  font-size: 45px;
+  font-family:brush script MT;
+}
+.mainContent .topLocations .topLocationsImages ul #forth{
+  margin-inline-start: 320px;
+  font-size: 45px;
+  font-family:brush script MT;
+}
+.mainContent #mainName{
+  font-size: 150px;
+  margin-top: -150px;
+  margin-left: 850px;
+  color: #2f2f2f;
+
+}
+.shop{
+  background-image: url("Background Images/mask.png");
+  padding: 230px;
+  background-position: 200px; 
+  color: white;
+  margin-left: -100px;
+  background-repeat: no-repeat;
+  margin-top: -100px;
+
+}
+.shop h1{
+  font-size: 100px;
+}
+.shop button{
+  height: 50px;
+  width: 130px;
+  font-size: 20px;
+  border-radius: 40px;
+  background-color: gray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+.gallery .galleryImages img{
+  width: 550px;
+  height: 350px;
+}
+.gallery{
+  background-image: url("Background Images/sigiriya.jpg");
+  margin-top: -100px;
+}
+.gallery .galleryImages{
+  padding-left: 220px;
+}
+.gallery h1{
+  color: #fff;
+  font-size: 100px;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration-line: var(#000000);
+}
+.gallery h2{
+  color: #fff;
+  text-align: center;
+}
+.gallery button{
+  height: 40px;
+  width: 120px;
+  font-size: 22px;
+  border-radius: 40px;
+  background-color: rgb(255, 241, 241);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: #000000;
+  margin-left: 700px;
+}
+.mainContent  h1{
+  font-size: 100px;
+  margin-left: 10px;
+  
+  
+}
+.mainContent h2{
+  font-size: 23px;
+  margin-left: 20px;
+  margin-top: -60px;
+  font-family: Garamond (serif);
+}
+.firstLine{
+  background-color: rgb(252, 247, 229);
+}
+.mainContent #logo img{
+  width: 120;
+  height: 120;
+  margin-left: 700px;
+}
+.mainContent .firstLine h1{
+  color: #383838;
+}
+.topLocations .topLocationsImages ul{
+  color: #261e1e;
+}
+
+
+
+
+/* Footer Styles */
+footer {
+  background-color: #261e1e;
+  color: #fff;
+  padding: 10px;
+}
+footer .footerLists #firstUL,#secondUL,#thirdUL{
+  list-style-type: none;
+}
+footer .footerLists #firstUL{
+  margin-left: 425px;
+  margin-top: -120px;
+}
+
+footer .footerLists #secondUL{
+  margin-left: 720px;
+  margin-top: -110px;
+
+}
+footer .footerLists #thirdUL{
+  margin-left: 1050px;
+  margin-top: -207px;
+  
+}
+footer .footerLists #thirdUL a{
+  color: #fff;
+
+}
+footer #logoes a{
+  color: white;
+  justify-content: center;
+  text-decoration: none;
+  margin-block-start: 10px;
+  padding: 25px;
+ 
+}
+footer #logoes a:hover{
+  color: yellow;
+}
+footer button{
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  width: 120px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: medium;
+  border-radius: 45px;
+}
+footer button a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer  #logoName{
+  margin-top: -75px;
+}

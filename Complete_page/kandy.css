@@ -1,0 +1,151 @@
+/* Footer Styles */
+footer {
+    background-color: #261e1e;
+    color: #fff;
+    padding: 10px;
+  }
+  footer .footerLists #firstUL,#secondUL,#thirdUL{
+    list-style-type: none;
+  }
+  footer .footerLists #firstUL{
+    margin-left: 425px;
+    margin-top: -120px;
+  }
+  
+  footer .footerLists #secondUL{
+    margin-left: 720px;
+    margin-top: -110px;
+  
+  }
+  footer .footerLists #thirdUL{
+    margin-left: 1050px;
+    margin-top: -207px;
+    
+  }
+  footer .footerLists #thirdUL a{
+    color: #fff;
+  
+  }
+  footer #logoes a{
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    margin-block-start: 10px;
+    padding: 25px;
+   
+  }
+  footer #logoes a:hover{
+    color: yellow;
+  }
+  footer button{
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: medium;
+    border-radius: 45px;
+  }
+  footer button a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  footer  #logoName{
+    margin-top: -75px;
+  }
+  
+.nevigationBar a{
+    list-style: none;
+    display: inline;
+    font-size: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.nevigationBar a:hover {
+    color: rgb(244, 211, 2);
+}
+ul li{
+    font-size: 26px;
+    
+}
+.places{
+    text-align: center;
+}
+#hedding{
+    font-size: 50px;
+    background-color: rgb(128, 141, 141);
+    text-align: center;
+    border-radius: 30px;
+}
+h1{
+    font-family: brush script MT;
+    font-size: 65px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.places .daladaMaligawa{
+    background-color: rgb(197, 222, 244);
+    margin: 30px;
+    padding: 10px;
+}
+.places .daladaMaligawa img{
+    width: 600px;
+    height: 400px;
+}
+.garden{
+    background-color: antiquewhite;
+    margin: 30px;
+    padding: 10px;
+}
+.garden img{
+    width: 600px;
+    height: 400px;
+}
+.lake img{
+    width: 600px;
+    height: 400px;
+}
+.lake{
+    background-color:darkgray;
+    margin: 30px;
+    padding: 10px;
+}
+.Hanthana img{
+    width: 600px;
+    height: 400px;
+}
+.Hanthana{
+    background-color:beige;
+    margin: 30px;
+    padding: 10px;
+}
+.embekke{
+    background-color:aliceblue;
+    margin: 30px;
+    padding: 10px;
+}
+.embekke img{
+    width: 600px;
+    height: 400px;
+}
+body{
+    background-color: rgb(219, 235, 249);
+}
+

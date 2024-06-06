@@ -1,0 +1,98 @@
+.nevigationBar a{
+    list-style: none;
+    display: inline;
+    font-size: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.nevigationBar a:hover {
+    color: rgb(244, 211, 2);
+}
+body {
+    background-image:url("Background Images/commentBackground06.jpeg");
+}
+
+.container {
+    max-width: 800px;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 320px;
+    font-family:monospace;
+    font-weight: 1000;
+}
+
+.thank-you-heading {
+    color: #ffe5cc;
+    font-size: 100px;
+}
+
+.thank-you-box {
+    background-color: #f4eccf;
+    color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+/* Footer Styles */
+footer {
+    background-color: #261e1e;
+    color: #fff;
+    padding: 10px;
+  }
+  footer .footerLists #firstUL,#secondUL,#thirdUL{
+    list-style-type: none;
+  }
+  footer .footerLists #firstUL{
+    margin-left: 425px;
+    margin-top: -120px;
+  }
+  
+  footer .footerLists #secondUL{
+    margin-left: 720px;
+    margin-top: -110px;
+  
+  }
+  footer .footerLists #thirdUL{
+    margin-left: 1050px;
+    margin-top: -207px;
+    
+  }
+  footer .footerLists #thirdUL a{
+    color: #fff;
+  
+  }
+  footer #logoes a{
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    margin-block-start: 10px;
+    padding: 25px;
+   
+  }
+  footer #logoes a:hover{
+    color: yellow;
+  }
+  footer button{
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: medium;
+    border-radius: 45px;
+  }
+  footer button a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  footer  #logoName{
+    margin-top: -75px;
+  }
+  

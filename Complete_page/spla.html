@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Decoration Example</title>
+    <style>
+        /* Unvisited link style */
+        a:link {
+            color: #007BFF !important; /* Blue color */
+            text-decoration: underline; /* Underline the link */
+        }
+
+        /* Visited link style */
+        a:visited {
+            color: #FF4500; /* Orange color */
+            text-decoration: none; /* No underline for visited links */
+        }
+
+        /* Hover effect on link */
+        a:hover {
+            color: #FF0000; /* Red color on hover */
+            text-decoration: none; /* Remove underline on hover */
+            font-weight: bold; /* Add bold font on hover */
+        }
+
+        /* Active link style (when the link is being clicked) */
+        a:active {
+            color: #00FF00; /* Green color when clicked */
+        }
+    </style>
+</head>
+<body>
+    <p>
+        This is an example of link decoration in HTML. Check out the following links:<br>
+        <a href="https://www.example.com" target="_blank" rel="noopener">Example Website</a><br>
+        <a href="https://www.google.com" target="_blank" rel="noopener">Google</a>
+    </p>
+</body>
+</html>

@@ -1,0 +1,80 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+fieldset {
+  height: 600px;
+}
+#heading {
+  text-align: center;
+  color: rgb(197, 23, 240);
+}
+.bottom {
+  text-align: center;
+  color: #241ae6;
+  text-decoration: none;
+  font-size: 20px;
+}
+#back {
+  text-align: center;
+  color: #140101;
+  text-decoration: none;
+  font-size: 20px;
+}
+#back a:hover {
+  color: #f41a1a;
+}
+.bottom a:hover {
+  color: #f40f0f;
+}
+.homepage {
+  text-align: center;
+}
+
+.feedback2 {
+  text-align: center;
+}
+.additional {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  background-color: #db20d5;
+  color: rgb(255, 255, 255);
+}
+fieldset {
+  background-color: rgba(255, 255, 255);
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* BUTTON STYLES */
+#comment,
+#home,
+#add {
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #29ed10;
+  border-radius: 12px;
+}
+/* Remove underline from all links */
+a {
+  text-decoration: none;
+}

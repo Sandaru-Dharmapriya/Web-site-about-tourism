@@ -1,0 +1,41 @@
+body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+	    background-image: url('splash1.jpeg');
+      background-size: 1650px 675px;
+      overflow: hidden;
+    }
+
+    .splash-screen {
+      font-size: 24px;
+      text-align: center;
+      padding: 40px;
+      padding-right: 10%;
+      background-color: #000000;
+      color: #fff;
+      border-radius: 20px;
+      animation: fadeInOut 4s linear;
+    }
+
+    @keyframes fadeInOut {
+      0%, 100% {
+        opacity: 0;
+      }
+      25%, 75% {
+        opacity: 1;
+      }
+    }
+
+    h1{
+      text-align: center;
+      padding-left: 30%;
+    }
+
+    p, ul {
+      text-align: left;
+    }

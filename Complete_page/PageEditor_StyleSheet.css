@@ -1,0 +1,55 @@
+.details{
+    margin: 450px;
+    border: 5px rgb(71, 2, 73);
+    background: rgb(155, 31, 79);
+    border-style: double;
+    border-radius: 15%;
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(1, 11, 20);
+    margin-bottom: 10px;
+    padding: 20px;
+    
+}
+
+body{
+    background: linear-gradient(90deg, #b8b7c5, #af2f2f);
+}
+
+h1{
+    padding-left: 8% ;
+    padding-top: 2%;
+    color: #ffffff;
+}
+
+p{
+    text-align: left;
+}
+
+.id{
+    background:rgb(255, 255, 252);
+    text-decoration:none;
+}
+
+/* .id2{
+    text-decoration:underline;
+} */
+
+a:link {
+    color: #FF4500;
+    text-decoration:underline;
+}
+
+a:visited {
+    color:  #190680;
+}
+
+a:hover{
+    color: #FF0000;
+    font-weight: bold;
+}
+
+a:active{
+    color: #00FF00;
+}
+

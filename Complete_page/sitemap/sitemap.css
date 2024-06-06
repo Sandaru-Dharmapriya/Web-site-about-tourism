@@ -1,0 +1,147 @@
+/* Nav bar*/
+.nevigationBar a{
+    list-style: none;
+    display: inline;
+    font-size: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.nevigationBar a:hover {
+    color: rgb(244, 211, 2);
+}
+/* logo */
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    width: 40px;
+    padding: 10px 0px 0px 10px;
+}
+
+
+body{
+    background-image:url("../imeges/sigiriya.jpg");
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top{
+    padding-top: 5px;
+    background-color: #ff3b3b;
+    height: 61px;
+    width: 100%;
+    text-align: center;
+}
+
+#topic{
+    color: rgb(250, 254, 30);
+    font-size: 50px;
+    font-style: italic;
+    font-weight:bolder;
+    letter-spacing: 1rem;
+}
+
+.marqueeMessege{
+    font-size:large ;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    background-color:#2345de;
+    border-radius: 1100px;
+    width: 100%;
+    margin: 10px;
+}
+
+.sitemapTable{
+    color: rgb(254, 254, 254);
+    margin: auto;
+    width: fit-content;
+    padding-top: 100px;
+    border-spacing:10px;
+}
+
+.sitemapTable th svg,
+.sitemapTable th a {
+    transition: transform 0.5s;           
+}
+
+.sitemapTable th:hover svg,
+.sitemapTable th:hover a {
+    transform: scale(1.05); 
+    fill: rgb(244, 248, 30); 
+    
+}
+
+.sitemapTable th a {
+    fill: #ffffff;
+    color: #ffffff;
+}
+/* Footer Styles */
+footer {
+    background-color: #261e1e;
+    color: #fff;
+    padding: 10px;
+}
+footer .footerLists #firstUL,#secondUL,#thirdUL{
+    list-style-type: none;
+}
+footer .footerLists #firstUL{
+    margin-left: 425px;
+    margin-top: -120px;
+}
+
+footer .footerLists #secondUL{
+    margin-left: 720px;
+    margin-top: -110px;
+
+}
+footer .footerLists #thirdUL{
+    margin-left: 1050px;
+    margin-top: -207px;
+    
+}
+footer .footerLists #thirdUL a{
+    color: #fff;
+
+}
+footer #logoes a{
+color: white;
+justify-content: center;
+text-decoration: none;
+margin-block-start: 10px;
+padding: 25px;
+
+}
+footer #logoes a:hover{
+color: yellow;
+}
+footer button{
+background-color: rgb(255, 255, 255);
+font-weight: bold;
+width: 120px;
+height: 50px;
+margin-top: 30px;
+margin-left: 30px;
+font-size: medium;
+border-radius: 45px;
+}
+footer button a{
+text-decoration: none;
+color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer  #logoName{
+margin-top: -75px;
+}
+
+
+
+
